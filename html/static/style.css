@@ -1,0 +1,33 @@
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dark {
+    background-color: rgb(232, 237, 249);
+    padding: 20px;
+}
+
+.light {
+    background-color: rgb(255,254,254);
+    padding:20px;
+}
+
+.contact-form {
+    border-radius: 25px;
+    border: 2px solid rgb(0,92,191);
+    padding: 20px; 
+    width: 200px;
+    height: 15px;    
+}
+
+.message-box{
+    height: 200px;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
